@@ -4,7 +4,7 @@ LABEL author="Dan Wahlin"
 
 WORKDIR /var/www/codewithdan
 
-RUN npm install -g pm2@latest
+RUN npm install -g pm2@latest && npm install
 
 RUN mkdir -p /var/log/pm2
 
